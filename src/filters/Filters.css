@@ -1,0 +1,14 @@
+.Filters{
+    background:#AAA;
+    border:5px inset #AAA;
+    width:100%;
+    height:33%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+}
+
+.Filters-Entry{
+    width:50%;
+
+}

@@ -1,0 +1,15 @@
+.Address{
+    background-color:#CCC;
+    border:5px outset #BBD;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin:5px 10px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+.Address-Section{
+    display:flex;
+    justify-content: space-between;
+}
