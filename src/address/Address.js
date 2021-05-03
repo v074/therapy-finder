@@ -1,14 +1,14 @@
 import './Address.css';
 
-const Address=()=>{
+const Address=({number, name, distance, address})=>{
     return(
         <div className="Address">
             <div className="Address-Section">
-            <p>01</p>
-            <p>Name:</p>
-            <p>Distance:</p>
+            <p>{number}</p>
+            <p>Name:{name}</p>
+            <p>Distance:{distance} mi.</p>
             </div>
-            <p>Address:</p>
+            <p>Address:{address}</p>
         </div>
     )
 }
