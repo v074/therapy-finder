@@ -7,14 +7,16 @@ const Filters = ({ selected, setSelected }) => {
         const filter3=document.getElementById("Filters-Entry-Child");
         const filter4=document.getElementById("Filters-Entry-Family");
         const filter5=document.getElementById("Filters-Entry-Relationship");
-        setSelected([filter1.checked, filter2.checked, filter3.checked, filter4.checked, filter5.checked]);
+        const filter6=document.getElementById("Filters-Entry-Counselor");
+        const filter7=document.getElementById("Filters-Entry-Service");
+        setSelected([filter1.checked, filter2.checked, filter3.checked, filter4.checked, filter5.checked, filter6.checked, filter7.checked]);
     }
 
     return (
         <div className="Filters">
             <div className="Filters-List">
                 <div className="Filters-Entry">
-                    <label htmlFor="Filters-Entry-General">General Psychologist</label>
+                    <label htmlFor="Filters-Entry-General">Psychologist</label>
                     <input type="checkbox" name="General" id="Filters-Entry-General"/>
                 </div>
                 <div className="Filters-Entry">
@@ -32,6 +34,14 @@ const Filters = ({ selected, setSelected }) => {
                 <div className="Filters-Entry">
                     <label htmlFor="Filters-Entry-Relationship">Relationship</label>
                     <input type="checkbox" name="Relationship Therapist" id="Filters-Entry-Relationship"/>
+                </div>
+                <div className="Filters-Entry">
+                    <label htmlFor="Filters-Entry-Counselor">Counselor</label>
+                    <input type="checkbox" name="Counselor" id="Filters-Entry-Counselor"/>
+                </div>
+                <div className="Filters-Entry">
+                    <label htmlFor="Filters-Entry-Service">Service/Clinic</label>
+                    <input type="checkbox" name="Service" id="Filters-Entry-Service"/>
                 </div>
             </div>
             <button onClick={()=>changeFilter(setSelected)}>Filter</button>

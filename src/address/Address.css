@@ -1,6 +1,6 @@
 .Address{
-    background-color:#CCC;
-    border:5px outset #BBD;
+    background-color:#F4F4FA;
+    border:5px outset #C2CFEE;
     display:flex;
     flex-direction:column;
     justify-content: space-between;
@@ -11,5 +11,6 @@
 
 .Address-Section{
     display:flex;
+    flex-wrap:wrap;
     justify-content: space-between;
 }

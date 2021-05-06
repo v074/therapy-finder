@@ -10,8 +10,10 @@ const Listing=({list})=>{
                 <Address
                 number={list.indexOf(item)+1}
                 name={item.name}
-                distance={item.distance}
+                specialty={item.specialty}
                 address={item.address}
+                phone={item.phone}
+                website={item.website}
                 />
             ))}
         </div>

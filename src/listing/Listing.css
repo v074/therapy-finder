@@ -1,6 +1,6 @@
 .Listing{
-    background:#AAA;
-    border:5px inset #AAA;
+    background:#CECFE0;
+    border:5px inset #D2DFFE;
     width:100%;
     display:flex;
     flex-direction: column;
@@ -9,4 +9,6 @@
     overflow-y:scroll;
     padding-top:5px;
     margin-top:20px;
+    min-height:80px;
 }
+
